@@ -1,8 +1,8 @@
 # Basic Information 
-title: Your Name
+title: Tassilo Wald
 position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+affiliation: German Cancer Research Center (DKFZ) & Helmholtz Imaging
+email: tassilo.wald (at) dkfz-heidelberg.de
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -12,16 +12,16 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+google_scholar: https://scholar.google.com/citations?user=alSWmJcAAAAJ&hl=de
+cv_link: assets/files/waldtassilocv.pdf
+github_link: https://github.com/TaWald
+linkedin: https://www.linkedin.com/in/tassilo-wald-342902217/
+twitter: https://twitter.com/WaldTassilo
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
+favicon: ./assets/img/favicon.png  #ToDo: Add favicon
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
@@ -38,7 +38,7 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+google_analytics: 
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
