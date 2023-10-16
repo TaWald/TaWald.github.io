@@ -1,0 +1,18 @@
+@article{10.1093/noajnl/vdac138,
+    author = {Pflüger, Irada and Wald, Tassilo and Isensee, Fabian and Schell, Marianne and Meredig, Hagen and Schlamp, Kai and Bernhardt, Denise and Brugnara, Gianluca and Heußel, Claus Peter and Debus, Juergen and Wick, Wolfgang and Bendszus, Martin and Maier-Hein, Klaus H and Vollmuth, Philipp},
+    title = "{Automated detection and quantification of brain metastases on clinical MRI data using artificial neural networks}",
+    journal = {Neuro-Oncology Advances},
+    volume = {4},
+    number = {1},
+    pages = {vdac138},
+    year = {2022},
+    month = {08},
+    abstract = "{Reliable detection and precise volumetric quantification of brain metastases (BM) on MRI are essential for guiding treatment decisions. Here we evaluate the potential of artificial neural networks (ANN) for automated detection and quantification of BM.A consecutive series of 308 patients with BM was used for developing an ANN (with a 4:1 split for training/testing) for automated volumetric assessment of contrast-enhancing tumors (CE) and non-enhancing FLAIR signal abnormality including edema (NEE). An independent consecutive series of 30 patients was used for external testing. Performance was assessed case-wise for CE and NEE and lesion-wise for CE using the case-wise/lesion-wise DICE-coefficient (C/L-DICE), positive predictive value (L-PPV) and sensitivity (C/L-Sensitivity).The performance of detecting CE lesions on the validation dataset was not significantly affected when evaluating different volumetric thresholds (0.001–0.2 cm3; P = .2028). The median L-DICE and median C-DICE for CE lesions were 0.78 (IQR = 0.6–0.91) and 0.90 (IQR = 0.85–0.94) in the institutional as well as 0.79 (IQR = 0.67–0.82) and 0.84 (IQR = 0.76–0.89) in the external test dataset. The corresponding median L-Sensitivity and median L-PPV were 0.81 (IQR = 0.63–0.92) and 0.79 (IQR = 0.63–0.93) in the institutional test dataset, as compared to 0.85 (IQR = 0.76–0.94) and 0.76 (IQR = 0.68–0.88) in the external test dataset. The median C-DICE for NEE was 0.96 (IQR = 0.92–0.97) in the institutional test dataset as compared to 0.85 (IQR = 0.72–0.91) in the external test dataset.The developed ANN-based algorithm (publicly available at www.github.com/NeuroAI-HD/HD-BM) allows reliable detection and precise volumetric quantification of CE and NEE compartments in patients with BM.}",
+    issn = {2632-2498},
+    doi = {10.1093/noajnl/vdac138},
+    url = {https://doi.org/10.1093/noajnl/vdac138},
+    eprint = {https://academic.oup.com/noa/article-pdf/4/1/vdac138/45800180/vdac138.pdf},
+}
+
+
+

@@ -1,0 +1,26 @@
+@article{Weber2021,
+   abstract = {For reliable environment perception, the use of temporal information is
+essential in some situations. Especially for object detection, sometimes a
+situation can only be understood in the right perspective through temporal
+information. Since image-based object detectors are currently based almost
+exclusively on CNN architectures, an extension of their feature extraction with
+temporal features seems promising. Within this work we investigate different architectural components for a
+CNN-based temporal information extraction. We present a Temporal Feature
+Network which is based on the insights gained from our architectural
+investigations. This network is trained from scratch without any ImageNet
+information based pre-training as these images are not available with temporal
+information. The object detector based on this network is evaluated against the
+non-temporal counterpart as baseline and achieves competitive results in an
+evaluation on the KITTI object detection dataset.},
+   author = {Michael Weber and Tassilo Wald and J. Marius Zollner},
+   doi = {10.1109/IV48863.2021.9575941},
+   isbn = {9781728153940},
+   journal = {IEEE Intelligent Vehicles Symposium, Proceedings},
+   month = {3},
+   pages = {1478-1484},
+   publisher = {Institute of Electrical and Electronics Engineers Inc.},
+   title = {Temporal Feature Networks for CNN based Object Detection},
+   volume = {2021-July},
+   url = {https://arxiv.org/abs/2103.12213v1},
+   year = {2021},
+}

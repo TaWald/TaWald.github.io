@@ -1,0 +1,22 @@
+@InProceedings{10.1007/978-3-658-41657-7_39,
+author="Ickler, Marc K.
+and Baumgartner, Michael
+and Roy, Saikat
+and Wald, Tassilo
+and Maier-Hein, Klaus H.",
+editor="Deserno, Thomas M.
+and Handels, Heinz
+and Maier, Andreas
+and Maier-Hein, Klaus
+and Palm, Christoph
+and Tolxdorff, Thomas",
+title="Taming Detection Transformers for Medical Object Detection",
+booktitle="Bildverarbeitung f{\"u}r die Medizin 2023",
+year="2023",
+publisher="Springer Fachmedien Wiesbaden",
+address="Wiesbaden",
+pages="183--188",
+abstract="The accurate detection of suspicious regions in medical images is an error-prone and time-consuming process required by many routinely performed diagnostic procedures. To support clinicians during this difficult task, several automated solutions were proposed relying on complex methods with many hyperparameters. In this study, we investigate the feasibility of detection transformer (DETR) models for volumetric medical object detection. In contrast to previous works, these models directly predict a set of objects without relying on the design of anchors or manual heuristics such as non-maximum-suppression to detect objects. We show by conducting extensive experiments with three models, namely DETR, Conditional DETR, and DINO DETR on four data sets (CADA, RibFrac, KiTS19, and LIDC) that these set prediction models can perform on par with or even better than currently existing methods. DINO DETR, the best-performing model in our experiments demonstrates this by outperforming a strong anchorbased one-stage detector, Retina U-Net, on three out of four data sets.",
+isbn="978-3-658-41657-7"
+}
+

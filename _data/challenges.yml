@@ -1,0 +1,53 @@
+main:
+
+  #- title: <Challenge title>
+  #  team: <Team members>
+  #  conference: <Hosting organization e.g. MICCAI >
+  #  challengelink: <Link to challenge explanation>
+  #  code: <Link to code solution>
+  #  report: <Link to Technical report>
+  #  bibtex: <Link to bibtex of report>
+  #  notes: <Additional manual notes>
+  #  image: <Link to image>
+  #  placement: <Badge info on image>
+  #  leaderboard: <Link to final Leaderboard>
+  #  nteams: <Number of teams>
+
+  - title: "Challenge: Mediastinal Lymph Node Quantification (LNQ): Segmentation of Heterogeneous CT Data"
+    team: "Jonathan Deissler<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>"
+    placement: "1st place"
+    challengelink: "https://lnq2023.grand-challenge.org/evaluation-guideline/"
+    conference: >-
+      Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023.
+    image: ./assets/img/lnq.png
+    leaderboard: https://grand-challenge.org/forums/forum/mediastinal-lymph-node-quantification-lnq-segmentation-690/topic/announcing-winners-1926/?post=4986#4986
+    nteams: 16
+    code:
+    report:
+    bibtex:
+    notes: 
+  
+  - title: "Challenge: Automated detection and quantification of brain metastases on clinical MRI data using artificial neural networks"
+    team: "Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>"
+    placement: "1st place"
+    challengelink: "https://amos22.grand-challenge.org"
+    report: https://arxiv.org/abs/2307.02516
+    conference: >-
+      Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2022.
+    image: ./assets/img/amos.png
+    leaderboard: https://amos22.grand-challenge.org/final-ranking/
+    nteams: 20
+    notes: 
+    
+  - title: "Hackathon: AI-HERO Hackathon for Energy-Efficient AI"
+    team: "<strong>Tassilo Wald<sup>*</sup></strong>, Michael Baumgartner<sup>*</sup>, Gregor Köhler<sup>*</sup>"
+    placement: "1st place"
+    challengelink: "https://www.helmholtz-hida.de/events/ai-hero/"
+    report: 
+    conference: >-
+      Hosted by: Helmholtz Information & Data Science Academy (HiDA), 2022.
+    image: ./assets/img/aihero.png
+    nteams: 4
+    notes: 
+    
+  

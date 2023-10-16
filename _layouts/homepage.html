@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+
   <head>
     <title>{{ site.title }} | {{site.affiliation}}</title>
 
@@ -14,8 +15,12 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon_bright.ico" sizes="any" />
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon_dark.ico" sizes="any" />
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <link rel="mask-icon" media="(prefers-color-scheme:dark)" href="{{ base_path }}{{ site.favicon_dark }}"  color="#000000">
+    <link rel="mask-icon" media="(prefers-color-scheme:light)" href="{{ base_path }}{{ site.favicon }}"  color="#000000">
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
@@ -33,9 +38,17 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
+    {% if site.enable_navbar %}
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    {% endif %}
+
 
   </head>
   <body>
+    {% if site.enable_navbar %}
+      {% include navigation.md %}
+    {% endif %}
+   
     <div class="wrapper">
       <header>
         
@@ -100,7 +113,7 @@
       <br>
 
       {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      <p><small>Powered by Jekyll and based off <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
       {% endif %}
 
       </section>

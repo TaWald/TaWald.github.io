@@ -1,0 +1,29 @@
+@inproceedings{DBLP:conf/miccai/UlrichIWZBM23,
+  author       = {Constantin Ulrich and
+                  Fabian Isensee and
+                  Tassilo Wald and
+                  Maximilian Zenk and
+                  Michael Baumgartner and
+                  Klaus H. Maier{-}Hein},
+  editor       = {Hayit Greenspan and
+                  Anant Madabhushi and
+                  Parvin Mousavi and
+                  Septimiu Salcudean and
+                  James Duncan and
+                  Tanveer F. Syeda{-}Mahmood and
+                  Russell H. Taylor},
+  title        = {MultiTalent: {A} Multi-dataset Approach to Medical Image Segmentation},
+  booktitle    = {Medical Image Computing and Computer Assisted Intervention - {MICCAI}
+                  2023 - 26th International Conference, Vancouver, BC, Canada, October
+                  8-12, 2023, Proceedings, Part {III}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14222},
+  pages        = {648--658},
+  publisher    = {Springer},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/978-3-031-43898-1\_62},
+  doi          = {10.1007/978-3-031-43898-1\_62},
+  timestamp    = {Thu, 05 Oct 2023 18:00:36 +0200},
+  biburl       = {https://dblp.org/rec/conf/miccai/UlrichIWZBM23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

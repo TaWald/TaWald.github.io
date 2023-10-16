@@ -1,0 +1,8 @@
+@misc{koehler2023recyclenet,
+      title={RecycleNet: Latent Feature Recycling Leads to Iterative Decision Refinement}, 
+      author={Gregor Koehler and Tassilo Wald and Constantin Ulrich and David Zimmerer and Paul F. Jaeger and Jörg K. H. Franke and Simon Kohl and Fabian Isensee and Klaus H. Maier-Hein},
+      year={2023},
+      eprint={2309.07513},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}

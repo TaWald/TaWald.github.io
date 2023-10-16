@@ -1,0 +1,35 @@
+@inproceedings{DBLP:conf/miccai/AlmeidaLNWNJHBWM23,
+  author       = {Silvia Dias Almeida and
+                  Carsten T. L{\"{u}}th and
+                  Tobias Norajitra and
+                  Tassilo Wald and
+                  Marco Nolden and
+                  Paul F. J{\"{a}}ger and
+                  Claus Peter Heussel and
+                  J{\"{u}}rgen Biederer and
+                  Oliver Weinheimer and
+                  Klaus H. Maier{-}Hein},
+  editor       = {Hayit Greenspan and
+                  Anant Madabhushi and
+                  Parvin Mousavi and
+                  Septimiu Salcudean and
+                  James Duncan and
+                  Tanveer F. Syeda{-}Mahmood and
+                  Russell H. Taylor},
+  title        = {cOOpD: Reformulating {COPD} Classification on Chest {CT} Scans as
+                  Anomaly Detection Using Contrastive Representations},
+  booktitle    = {Medical Image Computing and Computer Assisted Intervention - {MICCAI}
+                  2023 - 26th International Conference, Vancouver, BC, Canada, October
+                  8-12, 2023, Proceedings, Part {V}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14224},
+  pages        = {33--43},
+  publisher    = {Springer},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/978-3-031-43904-9\_4},
+  doi          = {10.1007/978-3-031-43904-9\_4},
+  timestamp    = {Sat, 14 Oct 2023 20:12:48 +0200},
+  biburl       = {https://dblp.org/rec/conf/miccai/AlmeidaLNWNJHBWM23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+

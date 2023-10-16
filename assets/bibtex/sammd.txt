@@ -1,0 +1,6 @@
+@inproceedings{wald2023sam,
+  title={SAM. MD: Zero-shot medical image segmentation capabilities of the Segment Anything Model},
+  author={Wald, Tassilo and Roy, Saikat and Koehler, Gregor and Disch, Nico and Rokuss, Maximilian Rouven and Holzschuh, Julius and Zimmerer, David and Maier-Hein, Klaus},
+  booktitle={Medical Imaging with Deep Learning, short paper track},
+  year={2023}
+}

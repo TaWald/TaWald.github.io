@@ -1,0 +1,21 @@
+@InProceedings{10.1007/978-3-658-41657-7_7,
+author="Isensee, Fabian
+and Ulrich, Constantin
+and Wald, Tassilo
+and Maier-Hein, Klaus H.",
+editor="Deserno, Thomas M.
+and Handels, Heinz
+and Maier, Andreas
+and Maier-Hein, Klaus
+and Palm, Christoph
+and Tolxdorff, Thomas",
+title="Extending nnU-Net Is All You Need",
+booktitle="Bildverarbeitung f{\"u}r die Medizin 2023",
+year="2023",
+publisher="Springer Fachmedien Wiesbaden",
+address="Wiesbaden",
+pages="12--17",
+abstract="Semantic segmentation is one of the most popular research areas in medical image computing. Perhaps surprisingly, despite its conceptualization dating back to 2018, nnU-Net continues to provide competitive out-of-the-box solutions for a broad variety of segmentation problems and is regularly used as a development framework for challenge-winning algorithms. Here, we use nnU-Net to participate in the AMOS-2022 challenge, which was a MICCAI22 challenge and comes with a unique set of tasks: not only is the dataset one of the largest ever created and boasts 15 target structures, but the second task of the competition also requires submitted solutions to handle both MRI and CT scans. Through careful modification of nnU-net's hyperparameters, the addition of residual connections in the encoder and the design of a custom postprocessing strategy, we were able to substantially improve upon the nnU-Net baseline. Advances in GPU memory capacity and processing speed allowed larger models and batch sizes than the default nnU-Net. Our final ensemble achieves Dice scores of 90.13 for Task 1 (CT) and 89.06 for Task 2 (CT+MRI) in a 5-fold cross-validation on the provided training cases.We submitted almost the same solution for both tasks, but adjusted the intensity normalization for task 2 to account for the additional MRI images. For the final testing stage, participants were asked to provide a docker container with their final solution to be applied to an unpublished test set. On both tasks, our nnU-Net extension achieved the first place by a wide margin.",
+isbn="978-3-658-41657-7"
+}
+
