@@ -1,0 +1,6 @@
+@article{wald2023exploring,
+  title={Exploring new ways: Enforcing representational dissimilarity to learn new features and reduce error consistency},
+  author={Wald, Tassilo and Ulrich, Constantin and Isensee, Fabian and Zimmerer, David and Koehler, Gregor and Baumgartner, Michael and Maier-Hein, Klaus H},
+  journal={arXiv preprint arXiv:2307.02516},
+  year={2023}
+}

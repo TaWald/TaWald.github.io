@@ -21,13 +21,13 @@ main:
       Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023.
     image: ./assets/img/lnq.png
     leaderboard: https://grand-challenge.org/forums/forum/mediastinal-lymph-node-quantification-lnq-segmentation-690/topic/announcing-winners-1926/?post=4986#4986
-    nteams: 16
+    nteams: 13
     code:
     report:
     bibtex:
     notes: 
   
-  - title: "Challenge: Automated detection and quantification of brain metastases on clinical MRI data using artificial neural networks"
+  - title: "Challenge: Abdominal Multi-Organ Segmentation (AMOS) Challenge 2022"
     team: "Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>"
     placement: "1st place"
     challengelink: "https://amos22.grand-challenge.org"

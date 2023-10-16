@@ -16,9 +16,9 @@ main:
     conference_short: "MICCAI"
     conference: "Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023."
     pdf: "https://arxiv.org/pdf/2303.14444.pdf"
-    code: "https://github.com/MIC-DKFZ/cOOpD"
+    code: https://github.com/MIC-DKFZ/MultiTalent
     page: "https://arxiv.org/abs/2303.14444"
-    bibtex: .assets/bibtex/multitalent.txt
+    bibtex: ./assets/bibtex/multitalent.txt
     notes: Oral presentation
     image: ./assets/img/multitalent.png
 
@@ -30,7 +30,7 @@ main:
     pdf: "https://arxiv.org/pdf/2307.07254v1"
     code: "https://github.com/MIC-DKFZ/cOOpD"
     page: "https://arxiv.org/abs/2307.07254v1"
-    bibtex: .assets/bibtex/coopd.txt
+    bibtex: ./assets/bibtex/coopd.txt
     image: ./assets/img/cOOpD.png
     notes: 
 
@@ -42,31 +42,31 @@ main:
     pdf: https://arxiv.org/pdf/2309.07513v1.pdf
     code: 
     page: https://deepai.org/publication/recyclenet-latent-feature-recycling-leads-to-iterative-decision-refinement
-    bibtex: .assets/bibtex/recyclenet.txt
+    bibtex: ./assets/bibtex/recyclenet.txt
     notes: Early accept
     image: ./assets/img/recyclenet.png
     
   - title: >-
        Exploring new ways: Enforcing representational dissimilarity to learn new features and reduce error consistency
-    authors: <strong>Tassilo Wald</strong>, Constantin Ulrich, Fabian Isensee, David Zimmerer, Gregor Koehler, Michael Baumgartner, Klaus H Maier-Hein
+    authors: <strong>Tassilo Wald</strong>, Constantin Ulrich, Fabian Isensee, David Zimmerer, Gregor Koehler, Michael Baumgartner, Klaus H. Maier-Hein
     conference_short: SCIS
     conference: Published at the ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability
     pdf: https://arxiv.org/pdf/2307.02516
     code: 
     page: https://arxiv.org/abs/2307.02516
-    bibtex: .assets/bibtex/newways.txt
+    bibtex: ./assets/bibtex/newways.txt
     notes: 
     image: ./assets/img/newways.png
 
   - title: 'Taming Detection Transformers for Medical Object Detection'
-    authors: Marc K Ickler<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, <strong>Tassilo Wald</strong>, Klaus H Maier-Hein
+    authors: Marc K. Ickler<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, <strong>Tassilo Wald</strong>, Klaus H. Maier-Hein
     conference_short: BVM
     conference: Bildverarbeitung für die Medizin (BVM), 2023.
     pdf: https://arxiv.org/pdf/2306.15472.pdf
     code: 
     page: https://arxiv.org/abs/2306.15472
-    bibtex: .assets/bibtex/tametrans.txt
-    notes: Nominated for Best Paper Award
+    bibtex: ./assets/bibtex/tametrans.txt
+    notes: Nominated for Best Paper Award & Oral
     image: ./assets/img/tametrans.png
 
   - title: >-
@@ -77,7 +77,7 @@ main:
     pdf: https://arxiv.org/pdf/2304.05396.pdf
     code: 
     page: https://openreview.net/forum?id=iilLHaINUW
-    bibtex: .assets/bibtex/sammd.txt
+    bibtex: ./assets/bibtex/sammd.txt
     notes: 
     image: ./assets/img/sammd.png
 
@@ -85,11 +85,11 @@ main:
     authors: Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, <strong>Tassilo Wald</strong><sup>*</sup>, Maier-Hein Klaus
     conference_short: BVM
     conference: Bildverarbeitung für die Medizin (BVM), 2023.
-    pdf: https://arxiv.org/pdf/2307.02516
+    pdf: https://arxiv.org/pdf/2208.10791
     code: 
-    page: https://arxiv.org/abs/2307.02516
-    bibtex: .assets/bibtex/extnnunet.txt
-    notes: Challenge Paper from of our 1st place in AMOS2022. 
+    page: https://arxiv.org/abs/2208.10791
+    bibtex: ./assets/bibtex/extnnunet.txt
+    notes: Technical Report of our 1st place challenge participation in AMOS2022. 
     image: ./assets/img/extnnunet.png
 
 
@@ -110,6 +110,6 @@ main:
     pdf: https://arxiv.org/pdf/2103.12213v1
     code: 
     page: https://arxiv.org/abs/2103.12213v1
-    bibtex: .assets/bibtex/tempcnn.txt
+    bibtex: ./assets/bibtex/tempcnn.txt
     notes: 
     image: ./assets/img/tempcnn.png
