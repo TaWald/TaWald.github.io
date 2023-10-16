@@ -31,7 +31,7 @@ main:
     team: "Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>"
     placement: "1st place"
     challengelink: "https://amos22.grand-challenge.org"
-    report: https://arxiv.org/abs/2307.02516
+    report: https://arxiv.org/abs/2208.10791
     conference: >-
       Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2022.
     image: ./assets/img/amos.png
