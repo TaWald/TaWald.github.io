@@ -9,29 +9,7 @@ main:
   #  bibtex: https://doi.org/10.1093/noajnl/vdac138
   #  image: ./assets/img/hdbm.png
   #  notes: 
-
-  - title: "Automated detection and quantification of brain metastases on clinical MRI data using artificial neural networks"
-    authors: "Irada Pflueger<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>, Fabian Isensee, Marianne Schell, Hagen Meredig, Kai Schlamp, Denise Bernhardt, Gianluca Brugnara, Claus Peter Heußel, Juergen Debus, Wolfgang Wick, Martin Bendszus, Klaus H. Maier-Hein, Philip Vollmuth"
-    conference_short: "NOA"
-    conference: "Neuro-Oncology Advances, 4(1), 2022"
-    pdf: "https://doi.org/10.1093/noajnl/vdac138"
-    code: "https://github.com/NeuroAI-HD/HD-BM"
-    bibtex: "https://doi.org/10.1093/noajnl/vdac138"
-    image: ./assets/img/hdbm.png
-    notes: 
   
-  - title: >-
-      cOOpD: Reformulating COPD classification on chest CT scans as anomaly detection using contrastive representations
-    authors: "Silvia D. Almeida<sup>*</sup>, Carsten T. Lüth<sup>*</sup>, Tobias Norajitra, <strong>Tassilo Wald</strong>, Marco Nolden, Paul F. Jaeger, Claus P. Heussel, Jürgen Biederer, Oliver Weinheimer, Klaus Maier-Hein"
-    conference_short: "MICCAI"
-    conference: "Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023."
-    pdf: "https://arxiv.org/pdf/2307.07254v1"
-    code: "https://github.com/MIC-DKFZ/cOOpD"
-    page: "https://arxiv.org/abs/2307.07254v1"
-    bibtex: .assets/bibtex/coopd.txt
-    image: ./assets/img/cOOpD.png
-    notes: 
-    
   - title: >-
       MultiTalent: A Multi-dataset Approach to Medical Image Segmentation.
     authors: "Constantin Ulrich, Fabian Isensee, <strong>Tassilo Wald</strong>, Maximilian Zenk, Michael Baumgartner, Klaus H. Maier-Hein"
@@ -45,16 +23,16 @@ main:
     image: ./assets/img/multitalent.png
 
   - title: >-
-      SAM.MD: Zero-shot medical image segmentation capabilities of the Segment Anything Model
-    authors: Saikat Roy<sup>*</sup>, <strong>Tassilo Wald</strong><sup>*</sup>, Gregor Köhler<sup>*</sup>, Maximilian R. Rokuss<sup>*</sup>, Nico Disch<sup>*</sup>, Julius Holzschuh<sup>*</sup>, David Zimmerer<sup>*</sup>, Klaus H. Maier-Hein
-    conference_short: MIDL short
-    conference: Medical Imaging with Deep Learning (MIDL), short paper track, 2023.
-    pdf: https://arxiv.org/pdf/2304.05396.pdf
-    code: 
-    page: https://openreview.net/forum?id=iilLHaINUW
-    bibtex: .assets/bibtex/sammd.txt
+      cOOpD: Reformulating COPD classification on chest CT scans as anomaly detection using contrastive representations
+    authors: "Silvia D. Almeida<sup>*</sup>, Carsten T. Lüth<sup>*</sup>, Tobias Norajitra, <strong>Tassilo Wald</strong>, Marco Nolden, Paul F. Jaeger, Claus P. Heussel, Jürgen Biederer, Oliver Weinheimer, Klaus Maier-Hein"
+    conference_short: "MICCAI"
+    conference: "Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023."
+    pdf: "https://arxiv.org/pdf/2307.07254v1"
+    code: "https://github.com/MIC-DKFZ/cOOpD"
+    page: "https://arxiv.org/abs/2307.07254v1"
+    bibtex: .assets/bibtex/coopd.txt
+    image: ./assets/img/cOOpD.png
     notes: 
-    image: ./assets/img/sammd.png
 
   - title: >-
       RecycleNet: Latent Feature Recycling Leads to Iterative Decision Refinement.
@@ -67,7 +45,18 @@ main:
     bibtex: .assets/bibtex/recyclenet.txt
     notes: Early accept
     image: ./assets/img/recyclenet.png
-
+    
+  - title: >-
+       Exploring new ways: Enforcing representational dissimilarity to learn new features and reduce error consistency
+    authors: <strong>Tassilo Wald</strong>, Constantin Ulrich, Fabian Isensee, David Zimmerer, Gregor Koehler, Michael Baumgartner, Klaus H Maier-Hein
+    conference_short: SCIS
+    conference: Published at the ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability
+    pdf: https://arxiv.org/pdf/2307.02516
+    code: 
+    page: https://arxiv.org/abs/2307.02516
+    bibtex: .assets/bibtex/newways.txt
+    notes: 
+    image: ./assets/img/newways.png
 
   - title: 'Taming Detection Transformers for Medical Object Detection'
     authors: Marc K Ickler<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, <strong>Tassilo Wald</strong>, Klaus H Maier-Hein
@@ -81,16 +70,16 @@ main:
     image: ./assets/img/tametrans.png
 
   - title: >-
-       Exploring new ways: Enforcing representational dissimilarity to learn new features and reduce error consistency
-    authors: <strong>Tassilo Wald</strong>, Constantin Ulrich, Fabian Isensee, David Zimmerer, Gregor Koehler, Michael Baumgartner, Klaus H Maier-Hein
-    conference_short: SCIS
-    conference: Published at the ICML 2023 Workshop on Spurious Correlations, Invariance, and Stability
-    pdf: https://arxiv.org/pdf/2307.02516
+      SAM.MD: Zero-shot medical image segmentation capabilities of the Segment Anything Model
+    authors: Saikat Roy<sup>*</sup>, <strong>Tassilo Wald</strong><sup>*</sup>, Gregor Köhler<sup>*</sup>, Maximilian R. Rokuss<sup>*</sup>, Nico Disch<sup>*</sup>, Julius Holzschuh<sup>*</sup>, David Zimmerer<sup>*</sup>, Klaus H. Maier-Hein
+    conference_short: MIDL short
+    conference: Medical Imaging with Deep Learning (MIDL), short paper track, 2023.
+    pdf: https://arxiv.org/pdf/2304.05396.pdf
     code: 
-    page: https://arxiv.org/abs/2307.02516
-    bibtex: .assets/bibtex/newways.txt
+    page: https://openreview.net/forum?id=iilLHaINUW
+    bibtex: .assets/bibtex/sammd.txt
     notes: 
-    image: ./assets/img/newways.png
+    image: ./assets/img/sammd.png
 
   - title: 'Extending nnU-Net is all you need'
     authors: Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, <strong>Tassilo Wald</strong><sup>*</sup>, Maier-Hein Klaus
@@ -103,6 +92,16 @@ main:
     notes: Challenge Paper from of our 1st place in AMOS2022. 
     image: ./assets/img/extnnunet.png
 
+
+  - title: "Automated detection and quantification of brain metastases on clinical MRI data using artificial neural networks"
+    authors: "Irada Pflueger<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>, Fabian Isensee, Marianne Schell, Hagen Meredig, Kai Schlamp, Denise Bernhardt, Gianluca Brugnara, Claus Peter Heußel, Juergen Debus, Wolfgang Wick, Martin Bendszus, Klaus H. Maier-Hein, Philip Vollmuth"
+    conference_short: "NOA"
+    conference: "Neuro-Oncology Advances, 4(1), 2022"
+    pdf: "https://doi.org/10.1093/noajnl/vdac138"
+    code: "https://github.com/NeuroAI-HD/HD-BM"
+    bibtex: "https://doi.org/10.1093/noajnl/vdac138"
+    image: ./assets/img/hdbm.png
+    notes: 
   
   - title: 'Temporal Feature Networks for CNN based Object Detection'
     authors: Michael Weber, <strong>Tassilo Wald</strong>, J. Marius Zollner

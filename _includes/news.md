@@ -12,6 +12,7 @@
   <li><strong>[Jun. 2023]</strong> Our workshop paper about learning diverse representation was accepted at SCIS 2023.</li>
   <li><strong>[Apr. 2023]</strong> Within a day we wrote a quick evaluation of <a href="https://arxiv.org/abs/2304.02643" target="_blank"> Meta's SAM</a> for a MIDL short paper.</li>
   <li><strong>[Feb. 2023]</strong> I joined the <a href="https://heidelberg.ai" target="_blank"> Heidelberg AI</a> organizing team.</li>
+  <li><strong>[Oct. 2022]</strong> Fabian Isensee, Constantin Ulrich and I won the AMOS2022 MICCAI challenge.</li>
   <li><strong>[Feb. 2022]</strong> Two colleagues and I won the "AI-HERO Hackathon for Energy-Efficient AI". </li> 
 <!-- <li> <a href="javascript:toggle_vis('newsmore')">Show more</a> </li>
 <div id="newsmore" style="display:none"> 
