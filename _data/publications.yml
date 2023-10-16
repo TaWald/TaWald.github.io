@@ -99,7 +99,7 @@ main:
     conference: "Neuro-Oncology Advances, 4(1), 2022"
     pdf: "https://doi.org/10.1093/noajnl/vdac138"
     code: "https://github.com/NeuroAI-HD/HD-BM"
-    bibtex: "https://doi.org/10.1093/noajnl/vdac138"
+    bibtex: ./assets/bibtex/hdbm.txt
     image: ./assets/img/hdbm.png
     notes: 
   
