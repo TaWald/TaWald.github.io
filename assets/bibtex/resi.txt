@@ -1,0 +1,6 @@
+@article{klabunde2024resi,
+  title={Resi: A comprehensive benchmark for representational similarity measures},
+  author={Klabunde, Max and Wald, Tassilo and Schumacher, Tobias and Maier-Hein, Klaus and Strohmaier, Markus and Lemmerich, Florian},
+  journal={arXiv preprint arXiv:2408.00531},
+  year={2024}
+}

@@ -11,6 +11,66 @@ main:
   #  notes: 
   
   - title: >-
+      RadioActive: 3D Radiological Interactive Segmentation Benchmark
+    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Constantin Ulrich<sup>*</sup>, Emily Tempus, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
+    conference_short: "Preprint"
+    conference: "Preprint."
+    pdf: "https://arxiv.org/pdf/2410.23132"
+    code: 
+    page: "https://arxiv.org/abs/2410.23132"
+    bibtex: ./assets/bibtex/s3d.txt
+    notes: 
+    image: ./assets/img/mae_data.png
+
+  - title: >-
+      Revisiting MAE pre-training for 3D medical image segmentation
+    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Constantin Ulrich<sup>*</sup>, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Leander Maerkisch, Paul F. Jäger, Klaus Maier-Hein"
+    conference_short: "Preprint"
+    conference: "Preprint."
+    pdf: "https://arxiv.org/pdf/2410.23132"
+    code: 
+    page: "https://arxiv.org/abs/2410.23132"
+    bibtex: ./assets/bibtex/s3d.txt
+    notes: 
+    image: ./assets/img/mae_data.png
+
+  - title: >-
+     Resi: A comprehensive benchmark for representational similarity measures
+    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Max Klabunde<sup>*</sup>, Tobias Schumacher<sup>*</sup>, Klaus H. Maier-Hein, Markus Strohmaier, Florian Lemmerich"
+    conference_short: "Preprint"
+    conference: "Preprint"
+    pdf: "https://arxiv.org/pdf/2408.00531"
+    code: https://github.com/TaWald/similaritybench
+    page: "https://arxiv.org/abs/2408.00531"
+    bibtex: ./assets/bibtex/resi.txt
+    notes: 
+    image: ./assets/img/resi.png
+
+  - title: >-
+      Decoupling Semantic Similarity from Spatial Alignment for Neural Networks
+    authors: " <strong>Tassilo Wald</strong>, Gregor Köhler, David Zimmerer, Stefan Denner, Michael Baumgartner, Fabian Isensee, Priyank Jaini, Klaus H. Maier-Hein"
+    conference_short: "NeurIPS 24"
+    conference: "Neural Information Processing Systems - (NeurIPS), 2024."
+    pdf: "https://arxiv.org/pdf/2410.23107"
+    code: https://github.com/TaWald/semantic_rsm
+    page: "https://arxiv.org/abs/2410.23107"
+    bibtex: ./assets/bibtex/semrsm.txt
+    notes: 
+    image: ./assets/img/translation_sensitivity.png
+
+    - title: >-
+      nnu-net revisited: A call for rigorous validation in 3d medical image segmentation
+    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, Klaus H. Maier-Hein, Paul Jäger"
+    conference_short: "MICCAI 24"
+    conference: "Medical Image Computing and Computer-Assisted Intervention - (MICCAI), 2024."
+    pdf: "https://arxiv.org/pdf/2404.09556"
+    code: https://github.com/MIC-DKFZ/nnUNet
+    page: "https://arxiv.org/abs/2404.09556"
+    bibtex: ./assets/bibtex/nnunetrevisited.txt
+    notes: 
+    image: ./assets/img/nnunet_revisited.png
+
+  - title: >-
       MultiTalent: A Multi-dataset Approach to Medical Image Segmentation.
     authors: "Constantin Ulrich, Fabian Isensee, <strong>Tassilo Wald</strong>, Maximilian Zenk, Michael Baumgartner, Klaus H. Maier-Hein"
     conference_short: "MICCAI"

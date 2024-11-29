@@ -1,0 +1,6 @@
+@article{wald2024decoupling,
+  title={Decoupling Semantic Similarity from Spatial Alignment for Neural Networks},
+  author={Wald, Tassilo and Ulrich, Constantin and K{\"o}hler, Gregor and Zimmerer, David and Denner, Stefan and Baumgartner, Michael and Isensee, Fabian and Jaini, Priyank and Maier-Hein, Klaus H},
+  journal={arXiv preprint arXiv:2410.23107},
+  year={2024}
+}
