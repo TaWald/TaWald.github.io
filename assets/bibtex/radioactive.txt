@@ -1,0 +1,6 @@
+@article{ulrich2024intrabench,
+  title={RadioActive: 3D Radiological Interactive Segmentation Benchmark},
+  author={Ulrich, Constantin and Wald, Tassilo and Tempus, Emily and Rokuss, Maximilian and Jaeger, Paul F and Maier-Hein, Klaus},
+  journal={arXiv preprint arXiv:2411.07885},
+  year={2024}
+}
