@@ -12,7 +12,7 @@ main:
   
   - title: >-
       RadioActive: 3D Radiological Interactive Segmentation Benchmark
-    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Constantin Ulrich<sup>*</sup>, Emily Tempus, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Emily Tempus, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
     conference: "Preprint"
     pdf: "https://arxiv.org/pdf/2410.23132"
@@ -24,7 +24,7 @@ main:
 
   - title: >-
       Revisiting MAE pre-training for 3D medical image segmentation
-    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Constantin Ulrich<sup>*</sup>, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Leander Maerkisch, Paul F. Jäger, Klaus Maier-Hein"
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Leander Maerkisch, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
     conference: "Preprint"
     pdf: "https://arxiv.org/pdf/2410.23132"
@@ -35,8 +35,8 @@ main:
     image: ./assets/img/mae_data.png
 
   - title: >-
-     Resi: A comprehensive benchmark for representational similarity measures
-    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Max Klabunde<sup>*</sup>, Tobias Schumacher<sup>*</sup>, Klaus H. Maier-Hein, Markus Strohmaier, Florian Lemmerich"
+      Resi: A comprehensive benchmark for representational similarity measures
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Max Klabunde<sup>*</sup>, Tobias Schumacher<sup>*</sup>, Klaus H. Maier-Hein, Markus Strohmaier, Florian Lemmerich"
     conference_short: "Preprint"
     conference: "Preprint"
     pdf: "https://arxiv.org/pdf/2408.00531"
@@ -60,7 +60,7 @@ main:
 
     - title: >-
       nnu-net revisited: A call for rigorous validation in 3d medical image segmentation
-    authors: " <strong>Tassilo Wald<sup>*</sup></strong>, Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, Klaus H. Maier-Hein, Paul Jäger"
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, Klaus H. Maier-Hein, Paul Jäger"
     conference_short: "MICCAI 24"
     conference: "Medical Image Computing and Computer-Assisted Intervention - (MICCAI), 2024."
     pdf: "https://arxiv.org/pdf/2404.09556"
