@@ -3,6 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+  <li><strong>[Sept. 2024]</strong> Our paper on decoupling semantic similarity from spatial alignment was accepted at NeurIPS 2024.</li>
   <li><strong>[Oct. 2023]</strong> Our paper about multi dataset learning was chosen for Oral at MICCAI 2023.</li>
   <li><strong>[Oct. 2023]</strong> My student Jonathan Deissler & I won the LNQ MICCAI 2023 challenge.</li>
   <li><strong>[Jul. 2023]</strong> Our paper about representation recycling was accepted to WACV 2024 early.</li>
