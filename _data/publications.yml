@@ -1,7 +1,7 @@
 main:  
   - title: >-
       RadioActive: 3D Radiological Interactive Segmentation Benchmark
-    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Emily Tempus, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Emily Tempus<sup>*</sup>, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
     conference: "Preprint"
     pdf: "https://arxiv.org/pdf/2411.07885"
