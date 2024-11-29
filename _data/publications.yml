@@ -1,39 +1,26 @@
-main:
-
-  #- title: "Lost in Transformation: Current roadblocks for Transformers in 3D medical image segmentation"
-  #  authors: Saikat Roy<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>, Michael Baumgartner, Constantin Ulrich, Gregor Koehler, David Zimmerer, Fabian Isensee, Klaus Maier-Hein
-  #  conference_short: Under Review
-  #  conference: "International Conference on Learning Representations (ICLR), 2024 - Conference Submission"
-  #  pdf: https://openreview.net/pdf?id=PFUrgJtfs0
-  #  code: https://github.com/NeuroAI-HD/HD-BM
-  #  bibtex: https://doi.org/10.1093/noajnl/vdac138
-  #  image: ./assets/img/hdbm.png
-  #  notes: 
-  
+main:  
   - title: >-
       RadioActive: 3D Radiological Interactive Segmentation Benchmark
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Emily Tempus, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
     conference: "Preprint"
     pdf: "https://arxiv.org/pdf/2410.23132"
-    code: 
+    code: null
     page: "https://arxiv.org/abs/2410.23132"
     bibtex: ./assets/bibtex/s3d.txt
-    notes: 
+    notes: null
     image: ./assets/img/mae_data.png
-
   - title: >-
       Revisiting MAE pre-training for 3D medical image segmentation
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Leander Maerkisch, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
     conference: "Preprint"
     pdf: "https://arxiv.org/pdf/2410.23132"
-    code: 
+    code: null
     page: "https://arxiv.org/abs/2410.23132"
     bibtex: ./assets/bibtex/s3d.txt
-    notes: 
+    notes: null
     image: ./assets/img/mae_data.png
-
   - title: >-
       Resi: A comprehensive benchmark for representational similarity measures
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Max Klabunde<sup>*</sup>, Tobias Schumacher<sup>*</sup>, Klaus H. Maier-Hein, Markus Strohmaier, Florian Lemmerich"
@@ -43,9 +30,8 @@ main:
     code: https://github.com/TaWald/similaritybench
     page: "https://arxiv.org/abs/2408.00531"
     bibtex: ./assets/bibtex/resi.txt
-    notes: 
+    notes: null
     image: ./assets/img/resi.png
-
   - title: >-
       Decoupling Semantic Similarity from Spatial Alignment for Neural Networks
     authors: " <strong>Tassilo Wald</strong>, Gregor Köhler, David Zimmerer, Stefan Denner, Michael Baumgartner, Fabian Isensee, Priyank Jaini, Klaus H. Maier-Hein"
@@ -55,10 +41,9 @@ main:
     code: https://github.com/TaWald/semantic_rsm
     page: "https://arxiv.org/abs/2410.23107"
     bibtex: ./assets/bibtex/semrsm.txt
-    notes: 
+    notes: null
     image: ./assets/img/translation_sensitivity.png
-
-    - title: >-
+  - title: >-
       nnu-net revisited: A call for rigorous validation in 3d medical image segmentation
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, Klaus H. Maier-Hein, Paul Jäger"
     conference_short: "MICCAI 24"
@@ -67,16 +52,15 @@ main:
     code: https://github.com/MIC-DKFZ/nnUNet
     page: "https://arxiv.org/abs/2404.09556"
     bibtex: ./assets/bibtex/nnunetrevisited.txt
-    notes: 
+    notes: null
     image: ./assets/img/nnunet_revisited.png
-  
   - title: >-
       RecycleNet: Latent Feature Recycling Leads to Iterative Decision Refinement.
     authors: Gregor Köhler, <strong>Tassilo Wald</strong>, Constantin Ulrich, David Zimmerer, Paul F. Jaeger, Jörg K. H. Franke, Simon Kohl, Fabian Isensee, Klaus H. Maier-Hein
     conference_short: WACV 24
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.
     pdf: https://arxiv.org/pdf/2309.07513v1.pdf
-    code: 
+    code: null
     page: https://deepai.org/publication/recyclenet-latent-feature-recycling-leads-to-iterative-decision-refinement
     bibtex: ./assets/bibtex/recyclenet.txt
     notes: Early accept
@@ -93,7 +77,6 @@ main:
     bibtex: ./assets/bibtex/multitalent.txt
     notes: Oral presentation
     image: ./assets/img/multitalent.png
-
   - title: >-
       cOOpD: Reformulating COPD classification on chest CT scans as anomaly detection using contrastive representations
     authors: "Silvia D. Almeida<sup>*</sup>, Carsten T. Lüth<sup>*</sup>, Tobias Norajitra, <strong>Tassilo Wald</strong>, Marco Nolden, Paul F. Jaeger, Claus P. Heussel, Jürgen Biederer, Oliver Weinheimer, Klaus Maier-Hein"
@@ -105,7 +88,6 @@ main:
     bibtex: ./assets/bibtex/coopd.txt
     image: ./assets/img/cOOpD.png
     notes: 
-    
   - title: >-
        Exploring new ways: Enforcing representational dissimilarity to learn new features and reduce error consistency
     authors: <strong>Tassilo Wald</strong>, Constantin Ulrich, Fabian Isensee, David Zimmerer, Gregor Koehler, Michael Baumgartner, Klaus H. Maier-Hein
