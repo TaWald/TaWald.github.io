@@ -7,7 +7,7 @@ main:
     pdf: "https://arxiv.org/pdf/2411.07885"
     code: null
     page: "https://arxiv.org/abs/2411.07885"
-    bibtex: ./assets/bibtex/s3d.txt
+    bibtex: ./assets/bibtex/radioactive.txt
     notes: null
     image: ./assets/img/radioactive.png
   - title: >-
