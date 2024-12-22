@@ -1,5 +1,16 @@
 main:  
   - title: >-
+      An OpenMind for 3D medical vision self-supervised learning 	
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Jonathan Suprijiadi, Michal Nohel, Robin Peretzke, Klaus Maier-Hein"
+    conference_short: "Preprint"
+    conference: "Preprint"
+    pdf: null
+    code: null
+    page: null
+    bibtex: null
+    notes: null
+    image: ./assets/img/openmind.png
+  - title: >-
       RadioActive: 3D Radiological Interactive Segmentation Benchmark
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Emily Tempus<sup>*</sup>, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
