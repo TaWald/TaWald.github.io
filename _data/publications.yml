@@ -35,8 +35,8 @@ main:
   - title: >-
       Resi: A comprehensive benchmark for representational similarity measures
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Max Klabunde<sup>*</sup>, Tobias Schumacher<sup>*</sup>, Klaus H. Maier-Hein, Markus Strohmaier, Florian Lemmerich"
-    conference_short: "Preprint"
-    conference: "Preprint"
+    conference_short: "ICLR 25"
+    conference: "Thirteenth International Conference on Learning Representations"
     pdf: "https://arxiv.org/pdf/2408.00531"
     code: https://github.com/TaWald/similaritybench
     page: "https://arxiv.org/abs/2408.00531"
