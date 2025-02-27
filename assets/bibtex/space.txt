@@ -1,0 +1,8 @@
+@article{wald2025enhancing,
+  title={Enhancing deep learning methods for brain metastasis detection through cross-technique annotations on SPACE MRI},
+  author={Wald, Tassilo and Hamm, Benjamin and Holzschuh, Julius C and El Shafie, Rami and Kudak, Andreas and Kovacs, Balint and Pfl{\"u}ger, Irada and von Nettelbladt, Bastian and Ulrich, Constantin and Baumgartner, Michael Anton and others},
+  journal={European Radiology Experimental},
+  volume={9},
+  pages={15},
+  year={2025}
+}

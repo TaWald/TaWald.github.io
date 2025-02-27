@@ -11,6 +11,17 @@ main:
     notes: null
     image: ./assets/img/openmind.png
   - title: >-
+      Enhancing deep learning methods for brain metastasis detection through cross-technique annotations on SPACE MRI	
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Benjamin Hamm<sup>*</sup>, Julius C Holzschuh, Rami El Shafie, Andreas Kudak, Balint Kovacs, Irada Pflüger, Bastian von Nettelbladt, Constantin Ulrich, Michael Anton Baumgartner, Philipp Vollmuth, Jürgen Debus, Klaus H Maier-Hein, Thomas Welzel"
+    conference_short: "ER-x"
+    conference: "European Radiology Experimental"
+    pdf: "https://eurradiolexp.springeropen.com/articles/10.1186/s41747-025-00554-5"
+    code: null
+    page: "https://eurradiolexp.springeropen.com/articles/10.1186/s41747-025-00554-5"
+    bibtex: ./assets/bibtex/space.txt
+    notes: null
+    image: ./assets/img/space.png
+  - title: >-
       RadioActive: 3D Radiological Interactive Segmentation Benchmark
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Emily Tempus<sup>*</sup>, Maximilian Rouven Rokuss, Paul F. Jäger, Klaus Maier-Hein"
     conference_short: "Preprint"
@@ -24,8 +35,8 @@ main:
   - title: >-
       Revisiting MAE pre-training for 3D medical image segmentation
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Stanislav Lukyanenko, Andrei Goncharov, Alberto Paderno, Leander Maerkisch, Paul F. Jäger, Klaus Maier-Hein"
-    conference_short: "Preprint"
-    conference: "Preprint"
+    conference_short: "CVPR 25"
+    conference: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025"
     pdf: "https://arxiv.org/pdf/2410.23132"
     code: null
     page: "https://arxiv.org/abs/2410.23132"
