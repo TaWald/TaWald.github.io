@@ -1,0 +1,56 @@
+main:  
+  - title: >-
+      RecycleNet: Latent Feature Recycling Leads to Iterative Decision Refinement.
+    authors: Gregor Köhler, <strong>Tassilo Wald</strong>, Constantin Ulrich, David Zimmerer, Paul F. Jaeger, Jörg K. H. Franke, Simon Kohl, Fabian Isensee, Klaus H. Maier-Hein
+    conference_short: WACV 24
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024.
+    pdf: https://arxiv.org/pdf/2309.07513v1.pdf
+    code: null
+    page: https://deepai.org/publication/recyclenet-latent-feature-recycling-leads-to-iterative-decision-refinement
+    bibtex: ./assets/bibtex/recyclenet.txt
+    notes: Early accept
+    image: ./assets/img/recyclenet.png
+  - title: >-
+      MultiTalent: A Multi-dataset Approach to Medical Image Segmentation.
+    authors: "Constantin Ulrich, Fabian Isensee, <strong>Tassilo Wald</strong>, Maximilian Zenk, Michael Baumgartner, Klaus H. Maier-Hein"
+    conference_short: "MICCAI 23"
+    conference: "Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023."
+    pdf: "https://arxiv.org/pdf/2303.14444.pdf"
+    code: https://github.com/MIC-DKFZ/MultiTalent
+    page: "https://arxiv.org/abs/2303.14444"
+    bibtex: ./assets/bibtex/multitalent.txt
+    notes: Oral presentation
+    image: ./assets/img/multitalent.png
+  - title: >-
+      cOOpD: Reformulating COPD classification on chest CT scans as anomaly detection using contrastive representations
+    authors: "Silvia D. Almeida<sup>*</sup>, Carsten T. Lüth<sup>*</sup>, Tobias Norajitra, <strong>Tassilo Wald</strong>, Marco Nolden, Paul F. Jaeger, Claus P. Heussel, Jürgen Biederer, Oliver Weinheimer, Klaus Maier-Hein"
+    conference_short: "MICCAI 23"
+    conference: "Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023."
+    pdf: "https://arxiv.org/pdf/2307.07254v1"
+    code: "https://github.com/MIC-DKFZ/cOOpD"
+    page: "https://arxiv.org/abs/2307.07254v1"
+    bibtex: ./assets/bibtex/coopd.txt
+    image: ./assets/img/cOOpD.png
+    notes: 
+
+  - title: 'Taming Detection Transformers for Medical Object Detection'
+    authors: Marc K. Ickler<sup>*</sup>, Michael Baumgartner<sup>*</sup>, Saikat Roy, <strong>Tassilo Wald</strong>, Klaus H. Maier-Hein
+    conference_short: BVM 23
+    conference: Bildverarbeitung für die Medizin (BVM), 2023.
+    pdf: https://arxiv.org/pdf/2306.15472.pdf
+    code: 
+    page: https://arxiv.org/abs/2306.15472
+    bibtex: ./assets/bibtex/tametrans.txt
+    notes: Nominated for Best Paper Award & Oral
+    image: ./assets/img/tametrans.png
+
+  - title: 'Temporal Feature Networks for CNN based Object Detection'
+    authors: Michael Weber, <strong>Tassilo Wald</strong>, J. Marius Zollner
+    conference_short: IV 21
+    conference: IEEE Intelligent Vehicles Symposium, 2021
+    pdf: https://arxiv.org/pdf/2103.12213v1
+    code: 
+    page: https://arxiv.org/abs/2103.12213v1
+    bibtex: ./assets/bibtex/tempcnn.txt
+    notes: 
+    image: ./assets/img/tempcnn.png

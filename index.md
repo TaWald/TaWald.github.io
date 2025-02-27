@@ -16,4 +16,6 @@ My research focuses on machine learning and its applications in medical image an
 
 {% include_relative _includes/miscellaneous.md %}
 
+{% include_relative _includes/publications_co.md %}
+
 {% include_relative _includes/contact.md %}
