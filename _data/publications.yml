@@ -9,7 +9,7 @@ main:
     page: https://arxiv.org/abs/2503.01835
     bibtex: ./assets/bibtex/primus.txt
     notes: null
-    image: ./assets/img/openmind.png
+    image: ./assets/img/primus.png
   - title: >-
       An OpenMind for 3D medical vision self-supervised learning 	
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Jonathan Suprijiadi, Michal Nohel, Robin Peretzke, Klaus Maier-Hein"
