@@ -1,0 +1,9 @@
+@misc{wald2025primusenforcingattentionusage,
+      title={Primus: Enforcing Attention Usage for 3D Medical Image Segmentation}, 
+      author={Tassilo Wald and Saikat Roy and Fabian Isensee and Constantin Ulrich and Sebastian Ziegler and Dasha Trofimova and Raphael Stock and Michael Baumgartner and Gregor Köhler and Klaus Maier-Hein},
+      year={2025},
+      eprint={2503.01835},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.01835}, 
+}

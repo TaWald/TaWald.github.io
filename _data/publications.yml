@@ -1,5 +1,16 @@
 main:  
   - title: >-
+      Primus: Enforcing Attention Usage for 3D Medical Image Segmentation 
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Saikat Roy<sup>*</sup>, Fabian Isensee<sup>*</sup>, Constantin Ulrich, Sebastian Ziegler, Dasha Trofimova, Raphael Stock, Michael Baumgartner, Klaus Maier-Hein"
+    conference_short: "Preprint"
+    conference: "Preprint"
+    pdf: https://arxiv.org/pdf/2503.01835
+    code: https://github.com/TaWald/nnUNet/tree/primus
+    page: https://arxiv.org/abs/2503.01835
+    bibtex: ./assets/bibtex/primus.txt
+    notes: null
+    image: ./assets/img/openmind.png
+  - title: >-
       An OpenMind for 3D medical vision self-supervised learning 	
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Jonathan Suprijiadi, Michal Nohel, Robin Peretzke, Klaus Maier-Hein"
     conference_short: "Preprint"
