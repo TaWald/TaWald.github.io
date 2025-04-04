@@ -52,7 +52,7 @@ main:
     code: null
     page: "https://arxiv.org/abs/2410.23132"
     bibtex: ./assets/bibtex/s3d.txt
-    notes: null
+    notes: Highlight
     image: ./assets/img/mae_data.png
   - title: >-
       Resi: A comprehensive benchmark for representational similarity measures
