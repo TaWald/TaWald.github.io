@@ -3,7 +3,8 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-  <li><strong>[Feb. 2025]</strong> The paper on 3D CNN masked auto-encoder self-supervised pretraining was accepted to CVPR 2025!</li>
+  <li><strong>[Apr. 2025]</strong> The <a href="https://huggingface.co/datasets/AnonRes/OpenMind">OpenMind Dataset</a> is now publically available!</li>
+  <li><strong>[Feb. 2025]</strong> Our 3D CNN masked auto-encoder self-supervised pretraining was accepted to CVPR 2025 as a Highlight!</li>
   <li><strong>[Jan. 2025]</strong> Our clinical paper on the importance of annotation quality is published and available on European Radiology: Experimental!</li>
   <li><strong>[Jan. 2025]</strong> The ReSi Benchmark was Accepted at ICLR 25!</li>
   <li><strong>[Sept. 2024]</strong> Our paper on decoupling semantic similarity from spatial alignment was accepted at NeurIPS 2024.</li>
