@@ -12,13 +12,13 @@ main:
     image: ./assets/img/primus.png
   - title: >-
       An OpenMind for 3D medical vision self-supervised learning 	
-    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Jonathan Suprijiadi, Michal Nohel, Robin Peretzke, Klaus Maier-Hein"
-    conference_short: "Preprint"
-    conference: "Preprint"
-    pdf: null
-    code: null
-    page: null
-    bibtex: null
+    authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Constantin Ulrich<sup>*</sup>, Jonathan Suprijiadi<sup>*</sup>, Michal Nohel, Robin Peretzke, Klaus Maier-Hein"
+    conference_short: "ICCV 25"
+    conference: "International Conference on Computer Vision"
+    pdf: https://arxiv.org/pdf/2412.17041
+    code: https://github.com/MIC-DKFZ/nnUNet
+    page: https://arxiv.org/abs/2412.17041
+    bibtex: ./assets/bibtex/openmind.txt
     notes: null
     image: ./assets/img/openmind.png
   - title: >-

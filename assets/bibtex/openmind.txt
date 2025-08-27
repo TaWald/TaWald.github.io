@@ -1,0 +1,6 @@
+@article{wald2024openmind,
+  title={An OpenMind for 3D medical vision self-supervised learning},
+  author={Wald, Tassilo and Ulrich, Constantin and Suprijadi, Jonathan and Ziegler, Sebastian and Nohel, Michal and Peretzke, Robin and K{\"o}hler, Gregor and Maier-Hein, Klaus H},
+  journal={arXiv preprint arXiv:2412.17041},
+  year={2024}
+}

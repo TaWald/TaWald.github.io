@@ -1,6 +1,7 @@
-@article{wald2024revisiting,
+@inproceedings{wald2025revisiting,
   title={Revisiting MAE pre-training for 3D medical image segmentation},
-  author={Wald, Tassilo and Ulrich, Constantin and Lukyanenko, Stanislav and Goncharov, Andrei and Paderno, Alberto and Maerkisch, Leander and Jaeger, Paul F and Maier-Hein, Klaus},
-  journal={arXiv preprint arXiv:2410.23132},
-  year={2024}
+  author={Wald, Tassilo and Ulrich, Constantin and Lukyanenko, Stanislav and Goncharov, Andrei and Paderno, Alberto and Miller, Maximilian and Maerkisch, Leander and Jaeger, Paul and Maier-Hein, Klaus},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={5186--5196},
+  year={2025}
 }

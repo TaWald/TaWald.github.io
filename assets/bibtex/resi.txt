@@ -1,6 +1,6 @@
-@article{klabunde2024resi,
-  title={Resi: A comprehensive benchmark for representational similarity measures},
+@inproceedings{klabunderesi,
+  title={ReSi: A Comprehensive Benchmark for Representational Similarity Measures},
   author={Klabunde, Max and Wald, Tassilo and Schumacher, Tobias and Maier-Hein, Klaus and Strohmaier, Markus and Lemmerich, Florian},
-  journal={arXiv preprint arXiv:2408.00531},
-  year={2024}
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
 }
