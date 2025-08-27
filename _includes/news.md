@@ -3,6 +3,8 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+  <li><strong>[Aug. 2025]</strong> I finished my three months Internship with Microsoft Health Futures on 3D vision-language models!</li>
+  <li><strong>[Jun. 2025]</strong> Our OpenMind Dataset and benchmark paper was accepted to ICCV 2025!</li>
   <li><strong>[Apr. 2025]</strong> The <a href="https://huggingface.co/datasets/AnonRes/OpenMind">OpenMind Dataset</a> is now publicly available!</li>
   <li><strong>[Feb. 2025]</strong> Our 3D CNN masked auto-encoder self-supervised pretraining was accepted to CVPR 2025 as a Highlight!</li>
   <li><strong>[Jan. 2025]</strong> Our clinical paper on the importance of annotation quality is published and available on European Radiology: Experimental!</li>
