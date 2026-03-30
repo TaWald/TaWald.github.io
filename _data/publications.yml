@@ -1,5 +1,16 @@
 main:  
   - title: >-
+      Comprehensive language-image pre-training for 3D medical image understanding
+    authors: " <strong>Tassilo Wald</strong>, Ibrahim Ethem Hamamci, Yuan Gao, Sam Bond-Taylor, Harshita Sharma, Maximilian Ilse, Cynthia Lo, Olesya Melnichenko, Anton Schwaighofer, Noel C. F. Codella, Maria Teodora Wetscherek, Klaus H. Maier-Hein, Panagiotis Korfiatis, Valentina Salvatelli, Javier Alvarez-Valle, Fernando Pérez-García"
+    conference_short: "Preprint"
+    conference: "Preprint"
+    pdf: https://arxiv.org/pdf/2510.15042
+    code: https://huggingface.co/microsoft/colipri
+    page: https://arxiv.org/abs/2510.15042
+    bibtex: ./assets/bibtex/colipri.txt
+    notes: Microsoft Internship Project 
+    image: ./assets/img/colipri.png
+  - title: >-
       Primus: Enforcing Attention Usage for 3D Medical Image Segmentation 
     authors: " <strong>Tassilo Wald</strong><sup>*</sup>, Saikat Roy<sup>*</sup>, Fabian Isensee<sup>*</sup>, Constantin Ulrich, Sebastian Ziegler, Dasha Trofimova, Raphael Stock, Michael Baumgartner, Klaus Maier-Hein"
     conference_short: "Preprint"

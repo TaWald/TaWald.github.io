@@ -3,6 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+  <li><strong>[Nov. 2025]</strong> I gave a <a href="https://www.youtube.com/watch?v=RXxsi8qC0no">talk at Cohere</a> about SSL for 3D medical imaging.</li>
   <li><strong>[Aug. 2025]</strong> I finished my three months Internship with Microsoft Health Futures on 3D vision-language models!</li>
   <li><strong>[Jun. 2025]</strong> Our OpenMind Dataset and benchmark paper was accepted to ICCV 2025!</li>
   <li><strong>[Apr. 2025]</strong> The <a href="https://huggingface.co/datasets/AnonRes/OpenMind">OpenMind Dataset</a> is now publicly available!</li>
@@ -10,10 +11,11 @@
   <li><strong>[Jan. 2025]</strong> Our clinical paper on the importance of annotation quality is published and available on European Radiology: Experimental!</li>
   <li><strong>[Jan. 2025]</strong> The ReSi Benchmark was Accepted at ICLR 25!</li>
   <li><strong>[Sept. 2024]</strong> Our paper on decoupling semantic similarity from spatial alignment was accepted at NeurIPS 2024.</li>
-  <li><strong>[Oct. 2023]</strong> Our paper about multi dataset learning was chosen for Oral at MICCAI 2023.</li>
   <li> <a href="javascript:toggle_vis('newsmore')">Show more</a> </li>
   <div id="newsmore" style="display:none">
     <ul>
+      <li><strong>[Oct. 2023]</strong> Our paper about multi dataset learning was chosen for Oral at MICCAI 2023.</li>
+
       <li><strong>[Oct. 2023]</strong> My student Jonathan Deissler & I won the LNQ MICCAI 2023 challenge.</li>
       <li><strong>[Jul. 2023]</strong> Our paper about representation recycling was accepted to WACV 2024 early.</li>
       <li><strong>[Jul. 2023]</strong> Our paper about modeling COPD detection as OOD problem was accepted to MICCAI 2023.</li>

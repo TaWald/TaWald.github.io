@@ -1,0 +1,6 @@
+@article{wald2025comprehensive,
+  title={Comprehensive language-image pre-training for 3D medical image understanding},
+  author={Wald, Tassilo and Hamamci, Ibrahim Ethem and Gao, Yuan and Bond-Taylor, Sam and Sharma, Harshita and Ilse, Maximilian and Lo, Cynthia and Melnichenko, Olesya and Schwaighofer, Anton and Codella, Noel CF and others},
+  journal={arXiv preprint arXiv:2510.15042},
+  year={2025}
+}
