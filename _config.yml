@@ -2,18 +2,18 @@
 title: Tassilo Wald
 position: Ph.D.
 affiliation: DKFZ & Heidelberg University &  Prev. Microsoft Intern
-email: tassilo.wald (at) gmail.com
+email: tassilo.wald[at]gmail[dot]com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Tassilo Wald, representation learning, self-supervised learning, vision-language models, 3D medical imaging, foundation models, nnU-Net
+description: Tassilo Wald, Ph.D., researcher in representation learning and foundation models for 3D medical imaging (DKFZ & Heidelberg University).
+canonical: https://tawald.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=alSWmJcAAAAJ&hl=de
-cv_link: ./assets/files/tawald_cv_2026_06_19.pdf
+cv_link: ./assets/files/tassilo_wald_cv_2026_09_03.pdf
 github_link: https://github.com/TaWald
 linkedin: https://www.linkedin.com/in/tassilo-wald-342902217/
 twitter: https://twitter.com/WaldTassilo
@@ -37,10 +37,6 @@ auto_dark_mode: true
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: 
-
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light
@@ -56,3 +52,12 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+
+# Blog: posts live in _posts/ as YYYY-MM-DD-slug.md and are listed on /blog/.
+permalink: /blog/:year/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

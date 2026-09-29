@@ -2,17 +2,18 @@
 layout: homepage
 ---
 
-<h2 class="scroll-element" id="about-me" style="margin: 60px 0px 10px;">About me</h2>
-I just finished my Ph.D. at the [German Cancer Research Center (DKFZ)](https://www.dkfz.de/en/index.html) in the division of [Medical Image Computing (MIC)](https://www.linkedin.com/company/medical-image-computing/) under the supervision of [Klaus H. Maier-Hein](https://scholar.google.com/citations?user=oCrBpVMAAAAJ&hl=de), where I was fortunate to have worked with great colleagues like [Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en) and [Paul Jäger](https://scholar.google.com/citations?user=9B9-8h0AAAAJ&hl=en&oi=ao). Prior, I received my M.Sc. at [Karlsruhe Institute of Technology (KIT)](https://www.kit.edu/english/) in electrical engineering and information theory in 2019, in which I focused on navigation and control theory, before getting involved in perception with deep neural networks. 
 
-My research focuses on machine learning and its applications in medical image analysis, with a particular interest in understanding the representations learned by deep neural networks and steering their development. This led me to explore self-supervised learning for 3D medical imaging, where I developed general-purpose representations applicable to various downstream tasks. Notably, I did an internship with Microsoft Health Futures in Cambridge UK with [Fernando Pérez-García](https://scholar.google.com/citations?user=Gc2eg3kAAAAJ&hl=en), working on 3D medical vision-language models and collaborated with the German radiology startup Floy to develop a large pre-trained brain MRI foundation model.  I also lead the development of pre-training methods for [The Human Radiome Project](https://www.helmholtz.de/en/newsroom/article/helmholtz-invests-23-million-in-research-on-ai-foundation-models/), a pilot project of the Helmholtz Foundation Model Initiative, which seeks to create a vision foundation model for 3D radiology. Furthermore, I curated a [large-scale 3D dataset](https://huggingface.co/datasets/MIC-DKFZ/OpenMind), established a SSL benchmark for 3D imaging, and maintain a [comprehensive repository](https://github.com/MIC-DKFZ/nnssl) of the most relevant 3D SSL methods to accelerate the 3D medical SSL community.
+<h2 id="about-me" class="section-title scroll-element">About me</h2>
+I recently completed my Ph.D. at the [German Cancer Research Center (DKFZ)](https://www.dkfz.de/en/index.html), advised by [Klaus H. Maier-Hein](https://scholar.google.com/citations?user=oCrBpVMAAAAJ&hl=de) where I worked with many great colleagues, including [Fabian Isensee](https://scholar.google.com/citations?user=PjerEe4AAAAJ&hl=en) and [Paul Jäger](https://scholar.google.com/citations?user=9B9-8h0AAAAJ&hl=en&oi=ao). My research focuses on representation learning and foundation models, spanning self-supervised learning and vision-language models. I'm interested in understanding what deep networks learn and in building representations that transfer across tasks, with 3D medical imaging as the primary domain. 
+
+During my internship at [Microsoft Health Futures](https://www.microsoft.com/en-us/research/lab/microsoft-health-futures/) in Cambridge, UK, I worked with [Fernando Pérez-García](https://scholar.google.com/citations?user=Gc2eg3kAAAAJ&hl=en) on 3D vision-language models for radiology report generation. The resulting model improved on the prior state of the art by +20 Macro-F1 and is now used by Microsoft's collaborators at Mayo Clinic. At DKFZ, I led pre-training efforts for [The Human Radiome Project](https://www.helmholtz.de/en/newsroom/article/helmholtz-invests-23-million-in-research-on-ai-foundation-models/) and created or maintain open-source tools used across the field, including [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [OpenMind](https://huggingface.co/datasets/MIC-DKFZ/OpenMind), and [nnssl](https://github.com/MIC-DKFZ/nnssl).
 
 
 {% include_relative _includes/news.md %}
 
-{% include_relative _includes/publications.md %}
+{% include pub_list.html list=site.data.publications.main title="Publications" id="publications" scholar=true %}
 
-{% include_relative _includes/publications_co.md %}
+{% include pub_list.html list=site.data.publications_co.main title="Publications (Co-authored)" id="publications-co" %}
 
 {% include_relative _includes/challenges.md %}
 

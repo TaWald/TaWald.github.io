@@ -1,0 +1,12 @@
+<nav class="topnav" aria-label="Sections">
+  <div class="topnav-inner">
+    <a class="topnav-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <div class="topnav-links">
+    {% for link in site.data.navigation.main %}
+      {% assign active = false %}
+      {% if link.url == '/blog/' and page.url contains '/blog/' %}{% assign active = true %}{% endif %}
+      <a href="{{ link.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ link.title }}</a>
+    {% endfor %}
+    </div>
+  </div>
+</nav>

@@ -12,6 +12,32 @@ main:
   #  placement: <Badge info on image>
   #  leaderboard: <Link to final Leaderboard>
   #  nteams: <Number of teams>
+  #  image_fit: contain   <Show the whole image instead of cropping it, e.g. for certificates>
+  #  certificate: <Link to the award certificate>
+
+  - title: "Award: Extraordinary Contributions Award, CVPR 2025 Interactive 3D Biomedical Image Segmentation Challenge (ALLDATA track)"
+    team: "Fabian Isensee, Maximilian Rokuss, Lars Krämer, Stefan Dinkelacker, Ashis Ravindran, Florian Stritzke, Benjamin Hamm, <strong>Tassilo Wald</strong>, Moritz Langenberg, Constantin Ulrich, Jonathan Deissler, Ralf Floca, Klaus Maier-Hein"
+    image: ./assets/img/cvpr25_nninteractive_award.webp
+    image_fit: contain
+    certificate: ./assets/img/cvpr25_nninteractive_award.webp
+    placement: "Award"
+    challengelink: "https://www.codabench.org/competitions/5263/"
+    conference: >-
+      Hosted by: CVPR 2025 Workshop on Foundation Models for Interactive 3D Biomedical Image Segmentation.
+    report: https://arxiv.org/abs/2503.08373
+    code: https://github.com/MIC-DKFZ/nnInteractive
+    notes: for nnInteractive
+
+  - title: "Challenge: Head and Neck Tumor Segmentation for MR-Guided Applications (HNTS-MRG) 2024, Task 2 (mid-RT segmentation)"
+    team: "Jessica Kächele, Maximilian Zenk, Maximilian Rokuss, Constantin Ulrich, <strong>Tassilo Wald</strong>, Klaus Maier-Hein"
+    image: ./assets/img/hntsmrg24_podium.webp
+    image_fit: contain
+    placement: "2nd place"
+    challengelink: "https://hntsmrg24.grand-challenge.org/"
+    leaderboard: "https://hntsmrg24.grand-challenge.org/prizes/"
+    conference: >-
+      Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2024.
+    nteams: 15
 
   - title: "Challenge: Mediastinal Lymph Node Quantification (LNQ): Segmentation of Heterogeneous CT Data"
     team: "Jonathan Deissler<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>"
@@ -20,6 +46,7 @@ main:
     conference: >-
       Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023.
     image: ./assets/img/lnq.png
+    certificate: ./assets/img/lnq23_certificate.webp
     leaderboard: https://grand-challenge.org/forums/forum/mediastinal-lymph-node-quantification-lnq-segmentation-690/topic/announcing-winners-1926/?post=4986#4986
     nteams: 13
     code:
@@ -27,6 +54,17 @@ main:
     bibtex:
     notes: 
   
+  - title: "Challenge: Tumor Detection, Segmentation and Classification on Automated 3D Breast Ultrasound (TDSC-ABUS) 2023"
+    team: "Raphael Stock, Michael Baumgartner, Yannick Kirchhoff, Maximilian R. Rokuss, Jonathan Deissler, Nico Disch, Julius Holzschuh, Gregor Koehler, Saikat Roy, <strong>Tassilo Wald</strong>, David Zimmerer, Klaus Maier-Hein"
+    image: ./assets/img/tdsc_abus23_certificate.webp
+    image_fit: contain
+    certificate: ./assets/img/tdsc_abus23_certificate.webp
+    placement: "Top performer"
+    challengelink: "https://tdsc-abus2023.grand-challenge.org/"
+    conference: >-
+      Hosted by: Medical Image Computing and Computer Assisted Intervention - (MICCAI), 2023.
+    notes: Overall top performer
+
   - title: "Challenge: Abdominal Multi-Organ Segmentation (AMOS) Challenge 2022"
     team: "Fabian Isensee<sup>*</sup>, Constantin Ulrich<sup>*</sup>, <strong>Tassilo Wald<sup>*</sup></strong>"
     placement: "1st place"

@@ -1,23 +1,20 @@
+# Top navigation bar (shown when `enable_navbar: true` in _config.yml).
+# `url` starting with "/#" jumps to a section of the homepage; it also works from the blog pages.
 main:
+  - title: "About"
+    url: /#about-me
 
-  - title: "Contact"
-    url: ./#contact 
-    right: true 
-
-  #- title: "Services"
-  #  url: ./#services
-
-  #- title: "Talks"
-  #  url: ./#invited-talks
-
-  #- title: "Teaching"
-  #  url: ./#teaching
-
-  - title: "Challenges"
-    url: ./#challenges
+  - title: "News"
+    url: /#news
 
   - title: "Publications"
-    url: ./#publications
+    url: /#publications
 
-  - title: "Bio"
-    url: ./#about-me
+  - title: "Challenges"
+    url: /#challenges
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "Contact"
+    url: /#contact

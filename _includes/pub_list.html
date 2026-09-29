@@ -1,0 +1,31 @@
+{% comment %}
+  Publication list. Params:
+    list   – array of entries from _data (e.g. site.data.publications.main)
+    title  – section heading
+    id     – anchor id for the heading
+{% endcomment %}
+<h2 id="{{ include.id }}" class="section-title scroll-element">{{ include.title }}{% if include.scholar %} <span class="section-aside">[<a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>]</span>{% endif %}</h2>
+
+<ol class="pub-list">
+{% for pub in include.list %}
+  <li class="pub-row">
+    <div class="pub-media">
+      {% if pub.image %}<img src="{{ pub.image }}" class="teaser{% if pub.image_fit == 'contain' %} teaser-contain{% endif %}" alt="{{ pub.title | strip | escape }}" loading="lazy">{% endif %}
+      {% if pub.conference_short %}<abbr class="badge">{{ pub.conference_short }}</abbr>{% endif %}
+    </div>
+    <div class="pub-body">
+      <div class="title"><a href="{{ pub.pdf }}">{{ pub.title }}</a></div>
+      <div class="author">{{ pub.authors }}</div>
+      <div class="periodical"><em>{{ pub.conference }}</em></div>
+      <div class="links">
+        {% if pub.pdf %}<a href="{{ pub.pdf }}" class="btn" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if pub.code %}<a href="{{ pub.code }}" class="btn" target="_blank" rel="noopener">Code</a>{% endif %}
+        {% if pub.page %}<a href="{{ pub.page }}" class="btn" target="_blank" rel="noopener">Project Page</a>{% endif %}
+        {% if pub.bibtex %}<a href="{{ pub.bibtex }}" class="btn" target="_blank" rel="noopener">BibTeX</a>{% endif %}
+        {% if pub.notes %}<span class="pub-note">{{ pub.notes }}</span>{% endif %}
+        {% if pub.others %}{{ pub.others }}{% endif %}
+      </div>
+    </div>
+  </li>
+{% endfor %}
+</ol>

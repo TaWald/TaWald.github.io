@@ -1,57 +1,28 @@
-<h2 id="challenges" class="scroll-element" style="margin: 2px 0px -15px;">Challenges & Hackathons</h2>
+<h2 id="challenges" class="section-title scroll-element">Challenges &amp; Awards</h2>
 
-<div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.challenges.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% endif %}
-    {% if link.placement %} 
-    <abbr class="badge">{{ link.placement }}</abbr>
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="team">{{ link.team }}</div>
-      <div class="nteams"> Participating teams: {{ link.nteams }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.challengelink %} 
-      <a href="{{ link.challengelink }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Challenge</a>
-      {% endif %}
-      {% if link.leaderboard %} 
-      <a href="{{ link.leaderboard }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Leaderboard</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.report %} 
-      <a href="{{ link.report }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Technical Report</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
+<ol class="pub-list">
+{% for c in site.data.challenges.main %}
+  <li class="pub-row">
+    <div class="pub-media">
+      {% if c.image %}<img src="{{ c.image }}" class="teaser{% if c.image_fit == 'contain' %} teaser-contain{% endif %}" alt="{{ c.title | strip | escape }}" loading="lazy">{% else %}<div class="teaser teaser-placeholder" aria-hidden="true"><i class="fas fa-trophy"></i></div>{% endif %}
+      {% if c.placement %}<abbr class="badge">{{ c.placement }}</abbr>{% endif %}
     </div>
-  </div>
-</div>
-</li>
-
-<br>
-
+    <div class="pub-body">
+      <div class="title">{% if c.challengelink %}<a href="{{ c.challengelink }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</div>
+      {% if c.team %}<div class="team">{{ c.team }}</div>{% endif %}
+      {% if c.nteams %}<div class="nteams">Participating teams: {{ c.nteams }}</div>{% endif %}
+      <div class="periodical"><em>{{ c.conference }}</em></div>
+      <div class="links">
+        {% if c.challengelink %}<a href="{{ c.challengelink }}" class="btn" target="_blank" rel="noopener">Challenge</a>{% endif %}
+        {% if c.leaderboard %}<a href="{{ c.leaderboard }}" class="btn" target="_blank" rel="noopener">Leaderboard</a>{% endif %}
+        {% if c.code %}<a href="{{ c.code }}" class="btn" target="_blank" rel="noopener">Code</a>{% endif %}
+        {% if c.certificate %}<a href="{{ c.certificate }}" class="btn" target="_blank" rel="noopener">Certificate</a>{% endif %}
+        {% if c.report %}<a href="{{ c.report }}" class="btn" target="_blank" rel="noopener">Technical Report</a>{% endif %}
+        {% if c.bibtex %}<a href="{{ c.bibtex }}" class="btn" target="_blank" rel="noopener">BibTeX</a>{% endif %}
+        {% if c.notes %}<span class="pub-note">{{ c.notes }}</span>{% endif %}
+        {% if c.others %}{{ c.others }}{% endif %}
+      </div>
+    </div>
+  </li>
 {% endfor %}
-
 </ol>
-</div>
-

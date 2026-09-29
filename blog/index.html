@@ -1,0 +1,21 @@
+---
+layout: homepage
+title: Blog
+---
+<h2 id="blog" class="section-title">Blog</h2>
+
+{% if site.posts.size > 0 %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <time class="news-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+    <div>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.description %}<p class="post-excerpt">{{ post.description }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="post-empty">No posts yet &mdash; stay tuned.</p>
+{% endif %}

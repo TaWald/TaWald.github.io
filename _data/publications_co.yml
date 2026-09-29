@@ -1,4 +1,5 @@
 main:  
+
   - title: >-
       RecycleNet: Latent Feature Recycling Leads to Iterative Decision Refinement.
     authors: Gregor Köhler, <strong>Tassilo Wald</strong>, Constantin Ulrich, David Zimmerer, Paul F. Jaeger, Jörg K. H. Franke, Simon Kohl, Fabian Isensee, Klaus H. Maier-Hein
