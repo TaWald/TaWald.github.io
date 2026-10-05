@@ -626,7 +626,9 @@ image: /assets/blog/primus-v3/blip_kernel_light_still.png
       href="https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/primus.md">nnU-Net</a>, and we currently
     recommend Primus V3-S. The crop size (nnU-Net's <code>patch_size</code>) needs to be divisible by 8.</p>
 
-  <pre><code>nnUNetv2_train DATASET_ID 3d_fullres FOLD -tr nnUNet_PrimusV3S_Trainer
+  <pre><code>nnUNetv2_plan_experiment -d DATASET -pl nnUNetPlannerResEncL
+nnUNetv2_train DATASET_ID 3d_fullres FOLD -tr nnUNet_PrimusV3S_Trainer -p nnUNetPlannerResEncL
+    
 
 # earlier versions
 nnUNet_Primus_{S,B,M,L}_Trainer     # Primus (linear 8³ tokens)
